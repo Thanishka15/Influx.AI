@@ -2,7 +2,7 @@
 
 This service has no database and no local-memory fallback. OpenClaw runs every chat turn and its official Hindsight plugin owns recall and retention.
 
-## Remaining manual step: OpenClaw + Hindsight CLI
+## Remaining manual step: OpenClaw + Hindsight 
 
 Install the official plugin, then use its wizard. Select Embedded daemon and Groq when prompted.
 
