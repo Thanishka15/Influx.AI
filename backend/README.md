@@ -1,4 +1,4 @@
-# Social Memory Agent backend
+# Social Media Engagement Agent backend
 
 This service has no database and no local-memory fallback. OpenClaw runs every chat turn and its official Hindsight plugin owns recall and retention.
 
