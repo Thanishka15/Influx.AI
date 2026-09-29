@@ -1,0 +1,4 @@
+# Creator profiles are local runtime data, never source-controlled.
+data/*.db
+data/*.db-shm
+data/*.db-wal
