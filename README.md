@@ -4,13 +4,11 @@
 
 ## The Problem
 
-Most AI content assistants forget everything after each chat, forcing creators to repeatedly explain their niche, audience, and goals. Even built-in social media analytics only show historical metrics—they don't remember what your audience consistently responds to or use that knowledge in future conversations.
+Content creators often don't know what to post next. Existing analytics only show past performance and don't analyze audience behavior, identify recurring content preferences, or recommend the next best piece of content based on what has consistently worked. As a result, creators are left interpreting numbers instead of receiving actionable content strategy.
 
 ## Our Solution
 
-**Influx.AI** combines conversational AI with persistent creator memory.
-
-Instead of starting from scratch every time, it remembers your creator profile, audience preferences, top-performing formats, and recurring community requests to deliver personalized recommendations that improve over time.
+Influx.AI goes beyond analytics. It learns from a creator's content history, remembers audience preferences across conversations, and recommends the next best post—along with the best format, timing, and strategy—to help creators make smarter content decisions over time.
 
 ## Key Features
 
@@ -28,24 +26,6 @@ Instead of starting from scratch every time, it remembers your creator profile, 
 3. Each conversation updates learned insights from new interactions.
 4. Future chats automatically load this context before generating recommendations.
 
-## Example
-
-**First conversation**
-
-> "I'm a beginner fitness creator."
-
-Influx.AI remembers:
-
-* Niche: Beginner Fitness
-* Goal: Increase saves and shares
-* Audience: Women 18–30
-* Best posting time: 8 PM carousels, 7 AM reels
-
-**New conversation**
-
-> "What should my next post be?"
-
-Instead of asking for the niche again, it recommends a fitness-specific post using previously learned audience insights.
 
 ## Tech Stack
 
@@ -64,12 +44,12 @@ Instead of asking for the niche again, it recommends a fitness-specific post usi
 ### AI
 
 * Groq API
-* Llama models
+* OpenClaw – AI agent framework
 
 ### Storage
 
-* SQLite / Persistent backend memory
-* JSON-based memory layer
+* SQLite
+* Hindsight Cloud
 
 ## Project Structure
 
