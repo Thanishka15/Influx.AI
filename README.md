@@ -48,7 +48,6 @@ Influx.AI goes beyond analytics. It learns from a creator's content history, rem
 
 ### Storage
 
-* SQLite
 * Hindsight Cloud
 
 ## Project Structure
