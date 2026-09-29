@@ -820,7 +820,7 @@ header > div > p {
   line-height: 1.65;
 }
 
-.insight div {
+.insight-stat {
   margin-top: auto;
   border-top: 1px solid #ffffff15;
   padding-top: 14px;
@@ -829,14 +829,70 @@ header > div > p {
   align-items: center;
 }
 
-.insight b {
+.insight-stat b {
   font-size: 25px;
   color: #c9b7ff;
 }
 
-.insight span {
+.insight-stat span {
   font-size: 10px;
   color: #929aae;
+}
+
+.engagement-trend {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid #ffffff15;
+}
+
+.trend-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.trend-heading span {
+  color: #a99bcf;
+  font: 9px "DM Mono", monospace;
+  letter-spacing: 0.9px;
+}
+
+.trend-heading b {
+  color: #ded4ff;
+  font-size: 14px;
+}
+
+.engagement-trend svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.trend-grid {
+  fill: none;
+  stroke: #ffffff14;
+  stroke-width: 1;
+}
+
+.trend-line {
+  fill: none;
+  stroke: #9c7aff;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2.5;
+}
+
+.trend-point {
+  fill: #d7c8ff;
+  stroke: #4f2ab3;
+  stroke-width: 1.5;
+}
+
+.engagement-trend text {
+  fill: #8892a7;
+  font: 8px "DM Mono", monospace;
 }
 
 /* ---------- Tables ---------- */
