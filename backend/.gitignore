@@ -2,3 +2,9 @@
 data/*.db
 data/*.db-shm
 data/*.db-wal
+
+venv/
+__pycache__/
+.env
+
+
