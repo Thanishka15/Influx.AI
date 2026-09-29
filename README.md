@@ -99,7 +99,3 @@ npm run dev
 ## What Makes It Different?
 
 Unlike generic AI assistants, Influx.AI builds a **long-term memory** for every creator. It doesn't just analyze yesterday's engagement—it remembers what consistently works for your audience and uses that knowledge to improve future recommendations.
-
-## Team
-
-Built for **Hyderabad 3.0 Hackathon**.
